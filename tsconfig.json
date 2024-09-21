@@ -1,4 +1,12 @@
 {
+  "baseUrl": "./src",
+  "paths": {
+    "@/*": ["*"],
+    "@ui/*": ["ui/*"],
+    "@api/*": ["api/*"],
+    "@config/*": ["config/*"],
+    "@hooks/*": ["hooks/*"]
+  },
   "files": [],
   "references": [
     { "path": "./tsconfig.app.json" },

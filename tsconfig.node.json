@@ -18,5 +18,13 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
+  "baseUrl": "./src",
+  "paths": {
+    "@/*": ["*"],
+    "@ui/*": ["src/shared/ui/*"],
+    "@api/*": ["api/*"],
+    "@config/*": ["config/*"],
+    "@hooks/*": ["hooks/*"]
+  },
   "include": ["vite.config.ts"]
 }

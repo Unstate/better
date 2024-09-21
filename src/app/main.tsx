@@ -1,11 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
+import {Home} from "./pages";
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-      <div className={'bg-red-500'}>
-          asda
-      </div>
+      <Home />
   </StrictMode>,
 )
